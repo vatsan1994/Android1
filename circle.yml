@@ -62,11 +62,11 @@ checkout:
       #    RACK_ENV: test
 
 ## Customize deployment commands
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: foo-bar-123
+#deployment:
+ # staging:
+  #  branch: master
+   # heroku:
+    #  appname: foo-bar-123
 
 ## Custom notifications
 #notify:
