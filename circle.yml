@@ -43,6 +43,10 @@ checkout:
   cache_directories:
     - "custom_1"   # relative to the build directory
     - "~/custom_2" # relative to the user's home directory
+	
+  test:
+	override:
+		-nosettests
 
 ## Customize database setup
 #database:
